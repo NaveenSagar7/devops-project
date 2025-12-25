@@ -8,7 +8,7 @@ metadata:
 spec:
   ingressClassName: alb
   rules:
-    - host: example.com
+    - host: opentelemetry-demo.sagarproject.com
       http:
         paths:
           - path: "/"
